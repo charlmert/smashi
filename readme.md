@@ -1,7 +1,7 @@
 # Smashi
 
 <p align="center">
-(Smashi = Beast from X-Men)[https://github.com/charlmert/smashi/raw/master/assets/beast.jpg]
+    <img title="Smashi = Beast from X-Men" src="https://github.com/charlmert/smashi/raw/master/assets/beast.jpg"/>
 </p>
 
 Smashi is a python3 library with some useful utilities.
@@ -31,7 +31,7 @@ import smashi.cmd
 smashi.cmd.output('ls -1')
 # example output (0, 'assets\nbuild\ndist\nreadme.md\nsetup.py\nsmashi\nsmashi.egg-info\n', '')
 
-You can also tail command output
+# You can also tail command output
 smashi.cmd.tail('ls -1')
 ```
 
