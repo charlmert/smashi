@@ -26,13 +26,23 @@ pip3 install git+ssh://git@github.com/charlmert/smashi.git@master#egg=smashi
 
 ## Howto use
 
+Running shell commands
+
 ```python
 import smashi.cmd
 smashi.cmd.output('ls -1')
-# example output (0, 'assets\nbuild\ndist\nreadme.md\nsetup.py\nsmashi\nsmashi.egg-info\n', '')
+# example output: (0, 'assets\nbuild\ndist\nreadme.md\nsetup.py\nsmashi\nsmashi.egg-info\n', '')
 
 # You can also tail command output
 smashi.cmd.tail('ls -1')
+```
+
+Generating passwords
+
+```python
+import smashi.password
+print(smashi.password.generate())
+# example output: kb637a9QZvKQ
 ```
 
 ## Building and packaging
