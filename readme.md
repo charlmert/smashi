@@ -45,6 +45,15 @@ print(smashi.password.generate())
 # example output: kb637a9QZvKQ
 ```
 
+Converting bytes to string
+Avoiding UnicodeDecodeError and UnicodeEncodeError exceptions
+
+```python
+import smashi.str
+smashi.str.bytesToString(b'hello\xe5hi')
+# example output: "b'hello\\xe5hi'"
+```
+
 ## Building and packaging
 
 If you would like to fork this package and build your own based off it
