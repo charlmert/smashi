@@ -1,0 +1,7 @@
+*.sw*
+*.pyc
+.vagrant*
+xreplay.log
+bin/*
+**/data/play.sh
+build/*

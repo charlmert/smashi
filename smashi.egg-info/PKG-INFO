@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: smashi
+Version: 0.1
+Summary: A python3 library with useful utilities
+Home-page: https://github.com/charlmert/smashi
+Author: Charl Joseph Mert
+Author-email: charl.mert@gmail.com
+License: UNKNOWN
+Description: 
+        
+        ## Building and Packaging
+        
+        If you would like to fork this package and build your own based off it
+        
+        ```bash
+        sudo python3 -m pip install --upgrade pip setuptools wheel
+        sudo python3 -m pip install tqdm
+        sudo python3 -m pip install --user --upgrade twine
+        ```
+        
+        To build
+        
+        ```bash
+        python3 setup.py bdist_wheel
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
