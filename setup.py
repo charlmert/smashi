@@ -3,7 +3,7 @@ with open("readme.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='smashi',  
-     version='0.1',
+     version='1.2',
      author="Charl Joseph Mert",
      author_email="charl.mert@gmail.com",
      description="A python3 library with useful utilities",
