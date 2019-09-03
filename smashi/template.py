@@ -1,5 +1,5 @@
 import os
-from . import file
+import smashi.file
 
 templateString = '91e7c34f01c8a8177cdeac699c17faeb_TEMPLATE_STRING'
 literalTemplateString = 'c26a290da61cef0df960d25819af04d7_LITERAL_TEMPLATE_STRING'
