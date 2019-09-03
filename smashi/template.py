@@ -7,7 +7,7 @@ literalTemplateString = 'c26a290da61cef0df960d25819af04d7_LITERAL_TEMPLATE_STRIN
 """
     Save transformed template to the file specified by path
 """
-def template(self, text, variables, path):
+def text(self, text, variables, path):
     transformed = text.replace('{', '{{').replace('}', '}}').replace('%s', templateString).replace('%', '%%').replace(templateString, '%s') % variables
     os.makedirs('%s' % (os.path.dirname(path)), exist_ok=True)
     smashi.file.create('%s' % (path), transformed)
@@ -17,7 +17,7 @@ def template(self, text, variables, path):
     Save transformed template from the file specified by templateFile to the
     file specified by path
 """
-def templateFile(self, templateFile, variables, path):
+def file(self, templateFile, variables, path):
     with open('%s' % (templateFile), 'r') as fp:
         text = fp.read()
         # parsing escapes \%s
