@@ -10,6 +10,16 @@ def check_filesystem():
     except:
         return 'standard'
 
+
+def find_line(file, findstr, encoding='utf-8'):
+    fp = open(file, "r+", encoding=encoding)
+    for line in fp.readlines():
+        if line.find(findstr) != -1:
+            return True
+
+    fp.close()
+    return False
+
 def replace_line(file, findstr, replstr, encoding='utf-8'):
     fp = open(file, "r+", encoding=encoding)
     buf = ""
