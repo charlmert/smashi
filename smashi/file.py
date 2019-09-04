@@ -1,4 +1,5 @@
 # adapted from https://git.styrion.net/iteas/iteas-tools/blob/master/proxmox/proxmox_install_PVE5.py
+import os
 
 def check_filesystem():
     try:
