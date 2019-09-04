@@ -43,3 +43,6 @@ def append(file, str):
     fr = open(file, "a")
     fr.write(str + "\n")
     fr.close()
+
+def touch(file, str):
+    self.append(file, '')
