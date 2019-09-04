@@ -45,4 +45,4 @@ def append(file, str):
     fr.close()
 
 def touch(file):
-    self.append(file, '')
+    append(file, '')
