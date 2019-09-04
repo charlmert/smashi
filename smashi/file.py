@@ -45,4 +45,5 @@ def append(file, str):
     fr.close()
 
 def touch(file):
-    append(file, '')
+    with open(file, 'a'):
+        os.utime(file, None)
