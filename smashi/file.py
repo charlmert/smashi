@@ -44,5 +44,5 @@ def append(file, str):
     fr.write(str + "\n")
     fr.close()
 
-def touch(file, str):
+def touch(file):
     self.append(file, '')
