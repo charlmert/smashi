@@ -21,7 +21,7 @@ Smashi is a python3 library with some useful utilities.
 Install via pip3 using this git repo
 
 ```bash
-pip3 install git+ssh://git@github.com/charlmert/smashi.git@master#egg=smashi
+pip3 install git+https://git@github.com/charlmert/smashi.git@master#egg=smashi
 ```
 
 ## Howto use
